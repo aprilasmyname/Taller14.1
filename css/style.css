@@ -1,0 +1,17 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+  .card-text.scrollable {
+    max-height: 100px; /* Altura máxima para la descripción */
+    overflow-y: auto; /* Activar scroll vertical si excede la altura */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column; /* Asegurar que los elementos se alineen verticalmente */
+  }
+  
+  .card-body .mt-auto {
+    margin-top: auto; /* Empuja el contenido inferior hacia abajo */
+  }
+  
